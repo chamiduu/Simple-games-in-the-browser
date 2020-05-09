@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDiv</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+<body>
+
+    <!--First Challenge-->
+    <div class="container-1"> 
+        <h2>Challenge 1: Your age in Days</h2>
+
+        <!--Buttons-->
+        <div class="flex-box-container-1"> 
+            <div><button class="btn btn-primary" onclick="ageInDays()">Click Me</button></div>
+            <div><button class="btn btn-danger" onclick="reset()">Reset</button></div>
+        </div>
+        <!--End of Buttons-->
+
+        <!--Result box-->
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+        <!--End of result box-->
+
+    </div>
+    <!--End of first Challenge-->
+
+
+    <!--Second Challenge-->
+    <div class="container-2">
+        <h2>Challenge 2: Cat Generator</h2>
+
+        <!--Buttons-->
+        <div class="cat-buttons">
+            <div><button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button></div>
+            <div><button class="btn btn-danger" onclick="resetCats()">Reset Cats</button></div>
+        </div>
+        <!--End of buttons-->
+
+        <!--Result box-->
+        <div class="flex-box-container-2" id="flex-cat-gen"></div>
+        <!--End of the result box-->
+
+    <!--End of the second challenge-->
+    </div>
+
+    <div class="container-3">
+
+    </div>
+
+
+
+    <!--Main JS file-->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
